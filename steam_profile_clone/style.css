@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+}
+
+#topbar {
+    position: relative;
+    width: 1920px;
+    height: 104px;
+    background-color: #171d25;
+}
+
+.steam-logo img {
+    display: inline-block;
+    position: absolute;
+    width: 176px;
+    height: 44px;
+    margin-left: 490px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.links {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 45px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #dcdedf;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+a.highlight {
+    color: #1a9fff;
+    text-decoration: 3px underline;
+    text-underline-offset: 3px;
+}
+
+.links a:hover {
+    color: #1a9fff;
+}
+
+.nickname {
+    display: inline-block;
+    position: absolute;
+    color: #b8b6b4;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 1350px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    float: right;
+}
+
+.profile-pic img {
+    width: 34px;
+    height: 34px;
+    margin-right: 490px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid #54a5d4;
+}
+
+.profile-card {
+    width: 950px;
+    height: 184px;
+    background-color: black;
+    border: 2px dotted #e6c333;
+    margin-top: 25px;
+    margin-left: 480px;
+    box-shadow: 4px 4px #20d038;
+}
+
+.big-profile img {
+    width: 164px;
+    height: 164px;
+    border: 10px solid grey;
+}
+
+.big-nickname {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-top: -175px;
+    margin-left: 210px;
+}
+
+.about {
+    color: #c4c4c4;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-left: 210px;
+    margin-top: 55px;
+}
+
+.more {
+    color: #ebebeb;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 210px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.more:hover{
+    color: #1a9fff;
+}
+
+.level-container {
+    display: flex;
+    gap: 5px;
+    margin-top: -170px;
+    margin-left: 680px;
+
+}
+
+.level {
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.number {
+    color: white;
+    border: 2px solid #c02942;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+.edit {
+    margin-left: 680px;
+    margin-top: 105px;
+}
+
+.edit button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 1px dotted #e6c333;
+    width: 95px;
+    height: 30px;
+    font-family: sans-serif;
+}
+
+.main-content {
+    width: 652px;
+    height: 276px;
+    background-color: black;
+    margin-top: 25px;
+    margin-left: 480px;
+    border: 2px dotted #e6c333;
+    box-shadow: 4px 4px #20d038;
+}
+
+.gif {
+    padding-left: 160px;
+    padding-top: 15px;
+}
+
+.more-box {
+    display: flex;
+    background-color: #222223;
+    color: white;
+    width: 102px;
+    height: 59px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 525px;
+    margin-top: -205px;
+    cursor: pointer;
+}
+
+.more-box:hover {
+    border: 1px solid #1a9fff;
+}
+
+.goat {
+    color: #c4c4c4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+
+.like-button {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #c4c4c4;
+}
+
+.recent-act{
+    width: 652px;
+    height: 62px;
+    background-color: black;
+    border: 2px dotted #e6c333;
+    box-shadow: 4px 4px #20d038;
+    margin-top: 10px;
+    margin-left: 480px;
+}
+
+.recent-text-1{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #969696;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.recent-text-2{
+    float: right;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #969696;
+    margin-right: 15px;
+    margin-top: -15px;
+}
+
+.games{
+    width: 652px;
+    height: 610px;
+    background-color: black;
+    border: 2px dotted #e6c333;
+    box-shadow: 4px 4px #20d038;
+    margin-top: 6px;
+    margin-left: 480px;
+}
+
+.game-card{
+    width: 652px;
+    height: 234px;
+    background-color: black;
+}
+
+.game-pic{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.game-name{
+    color: #dcdedf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 200px;
+    margin-top: -60px;
+}
+
+.hours-played{
+    float: right;
+    color: #969696;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.screenshot{
+    color: #dcdedf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.screenshot img{
+    width: 19px;
+    height: 19px;
+    margin-top: 140px;
+    cursor: pointer;
+}
+
+.review{
+    margin-top: -20px;
+    margin-left: 120px;
+    color: #dcdedf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.screenshot2{
+    margin-top: 100px;
+    color: #dcdedf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.screenshot2 img{
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+
+.game-card2{
+    width: 652px;
+    height: 115px;
+    background-color: black;
+}
+
+.game-pic2{
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.game-name2{
+    color: #dcdedf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 200px;
+    margin-top: -60px;
+}
+
+#sidebar{
+    position: absolute;
+    margin-left: 1145px;
+    margin-top: -975px;
+    width: 288px;
+    height: 1300px;
+    background-color: black;
+    border: 2px dotted #e6c333;
+    box-shadow: 4px 4px #20d038;
+}
+
+.online-stat{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #57cbde;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding-left: 10px;
+    margin-top: 95px;
+    
+}
+.sidebar-box{
+    display: flex;
+    width: 268px;
+    height: 42px;
+    border: 1px dotted #20d038;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-box:hover{
+    text-decoration: underline;
+}
+
+.friends-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 268px;
+    height: 44px;
+    background-color: black;
+
+}
+
+.friend-pp img{
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    border: 2px solid #54a5d4;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.friend-name-online{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #898989;
+    margin-left: 60px;
+    margin-top: -40px;
+}
+
+.comments{
+    background-color: black;
+    border: 2px dotted #fb5034;
+    box-shadow: 4px 4px #debf3a;
+    width: 652px;
+    height: 300px;
+    margin-left: 480px;
+    margin-top: 30px;
+}
+
+.commentpp1 img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    border: 2px solid #54a5d4;
+}
+
+.add input{
+    position: absolute;
+    text-decoration: none;
+    background-color: black;
+    color: #dcdedf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border: none;
+    margin-left: 65px;
+    margin-top: -35px;
+}
+
+.comment1 img{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    border: 2px solid #54a5d4;
+}
+
+.comment1 p{
+    display: flex;
+    color: #dcdedf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 55px;
+    margin-top: -40px;
+}
+
+.gkhncomment{
+    color: #b8b6b4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 55px;
+}
